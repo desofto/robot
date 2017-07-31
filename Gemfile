@@ -15,6 +15,12 @@ gem 'listen'
 gem 'sqlite3'
 gem 'factory_girl_rails'
 
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'grape'
+gem 'grape-cancan'
+gem 'grape-entity'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
