@@ -44,30 +44,150 @@ describe Robot do
     expect(state).to eq '0,0,NORTH'
   end
 
-  it 'test 1' do
-    robot.command('PLACE 0,0,NORTH')
-    robot.command('MOVE')
-    state = robot.command('REPORT')
+  context 'rotates' do
+    before do
+      robot.command('PLACE 2,2,NORTH')
+    end
 
-    expect(state).to eq '0,1,NORTH'
+    it 'to left' do
+      robot.command('LEFT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,WEST'
+
+      robot.command('LEFT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,SOUTH'
+
+      robot.command('LEFT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,EAST'
+
+      robot.command('LEFT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,NORTH'
+    end
+
+    it 'to right' do
+      robot.command('RIGHT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,EAST'
+
+      robot.command('RIGHT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,SOUTH'
+
+      robot.command('RIGHT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,WEST'
+
+      robot.command('RIGHT')
+      state = robot.command('REPORT')
+      expect(state).to eq '2,2,NORTH'
+    end
   end
 
-  it 'test 2' do
-    robot.command('PLACE 0,0,NORTH')
-    robot.command('LEFT')
-    state = robot.command('REPORT')
+  context 'moves' do
+    it 'NORTH' do
+      robot.command('PLACE 2,2,NORTH')
 
-    expect(state).to eq '0,0,WEST'
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '2,3,NORTH'
+    end
+
+    it 'SOUTH' do
+      robot.command('PLACE 2,2,SOUTH')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '2,1,SOUTH'
+    end
+
+    it 'EAST' do
+      robot.command('PLACE 2,2,EAST')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '3,2,EAST'
+    end
+
+    it 'WEST' do
+      robot.command('PLACE 2,2,WEST')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '1,2,WEST'
+    end
   end
 
-  it 'test 3' do
-    robot.command('PLACE 1,2,EAST')
-    robot.command('MOVE')
-    robot.command('MOVE')
-    robot.command('LEFT')
-    robot.command('MOVE')
-    state = robot.command('REPORT')
+  context 'does not drop from table' do
+    it 'NORTH' do
+      robot.command('PLACE 2,4,NORTH')
 
-    expect(state).to eq '3,3,NORTH'
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '2,4,NORTH'
+    end
+
+    it 'SOUTH' do
+      robot.command('PLACE 2,0,SOUTH')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '2,0,SOUTH'
+    end
+
+    it 'EAST' do
+      robot.command('PLACE 4,2,EAST')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '4,2,EAST'
+    end
+
+    it 'WEST' do
+      robot.command('PLACE 0,2,WEST')
+
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '0,2,WEST'
+    end
+  end
+
+  context 'complex tests from the task description' do
+    it 'test 1' do
+      robot.command('PLACE 0,0,NORTH')
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '0,1,NORTH'
+    end
+
+    it 'test 2' do
+      robot.command('PLACE 0,0,NORTH')
+      robot.command('LEFT')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '0,0,WEST'
+    end
+
+    it 'test 3' do
+      robot.command('PLACE 1,2,EAST')
+      robot.command('MOVE')
+      robot.command('MOVE')
+      robot.command('LEFT')
+      robot.command('MOVE')
+      state = robot.command('REPORT')
+
+      expect(state).to eq '3,3,NORTH'
+    end
   end
 end
