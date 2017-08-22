@@ -2847,4 +2847,140 @@ http_interactions:
         ]
     http_version: 
   recorded_at: Mon, 21 Aug 2017 22:00:07 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/airlines
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '323'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "code": "SU",
+            "name": "Aeroflot"
+          },
+          {
+            "code": "MU",
+            "name": "China Eastern"
+          },
+          {
+            "code": "EK",
+            "name": "Emirates"
+          },
+          {
+            "code": "KE",
+            "name": "Korean Air lines"
+          },
+          {
+            "code": "QF",
+            "name": "Qantas"
+          },
+          {
+            "code": "SQ",
+            "name": "Singapore Airlines"
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:03 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/SU?date=2017-08-22&from=&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '21'
+    body:
+      encoding: UTF-8
+      string: Internal Server Error
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:03 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/MU?date=2017-08-22&from=&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '21'
+    body:
+      encoding: UTF-8
+      string: Internal Server Error
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:03 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/airlines
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '323'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "code": "SU",
+            "name": "Aeroflot"
+          },
+          {
+            "code": "MU",
+            "name": "China Eastern"
+          },
+          {
+            "code": "EK",
+            "name": "Emirates"
+          },
+          {
+            "code": "KE",
+            "name": "Korean Air lines"
+          },
+          {
+            "code": "QF",
+            "name": "Qantas"
+          },
+          {
+            "code": "SQ",
+            "name": "Singapore Airlines"
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:02 GMT
 recorded_with: VCR 3.0.3
