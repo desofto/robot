@@ -24,7 +24,6 @@ gem 'grape-entity'
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'capybara', '~> 2.13'
 end
 
 group :test do
@@ -32,4 +31,10 @@ group :test do
   gem 'rspec-rails'
   gem 'rspec-retry'
   gem 'shoulda-matchers'
+
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'timecop'
 end

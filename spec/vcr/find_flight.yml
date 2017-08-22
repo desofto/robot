@@ -1,0 +1,2850 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/airports?q=de
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2991'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "airportCode": "BVB",
+            "airportName": "A B Cantanhede Intl Arpt",
+            "cityCode": "BVB",
+            "cityName": "Boa Vista",
+            "countryCode": "BR",
+            "countryName": "Brazil",
+            "latitude": 2.846311,
+            "longitude": -60.690069,
+            "stateCode": "",
+            "timeZone": "America/Boa_Vista"
+          },
+          {
+            "airportCode": "ABR",
+            "airportName": "Aberdeen Regional Arpt",
+            "cityCode": "ABR",
+            "cityName": "Aberdeen",
+            "countryCode": "US",
+            "countryName": "United States",
+            "latitude": 45.4491,
+            "longitude": -98.4218,
+            "stateCode": "SD",
+            "timeZone": "America/Chicago"
+          },
+          {
+            "airportCode": "GIG",
+            "airportName": "A C Jobim Intl Arpt",
+            "cityCode": "RIO",
+            "cityName": "Rio De Janeiro",
+            "countryCode": "BR",
+            "countryName": "Brazil",
+            "latitude": -22.808903,
+            "longitude": -43.243647,
+            "stateCode": "",
+            "timeZone": "America/Sao_Paulo"
+          },
+          {
+            "airportCode": "ADL",
+            "airportName": "Adelaide Arpt",
+            "cityCode": "ADL",
+            "cityName": "Adelaide",
+            "countryCode": "AU",
+            "countryName": "Australia",
+            "latitude": -34.945,
+            "longitude": 138.530556,
+            "stateCode": "SA",
+            "timeZone": "Australia/Adelaide"
+          },
+          {
+            "airportCode": "SDE",
+            "airportName": "A De La Paz Aragonez Arpt",
+            "cityCode": "SDE",
+            "cityName": "Santiago Del Estero",
+            "countryCode": "AR",
+            "countryName": "Argentina",
+            "latitude": -27.765617,
+            "longitude": -64.310122,
+            "stateCode": "",
+            "timeZone": "America/Cordoba"
+          },
+          {
+            "airportCode": "MGQ",
+            "airportName": "Aden Adde International",
+            "cityCode": "MGQ",
+            "cityName": "Mogadishu",
+            "countryCode": "SO",
+            "countryName": "Somalia",
+            "latitude": 2.01444,
+            "longitude": 45.3047,
+            "stateCode": "",
+            "timeZone": "Africa/Mogadishu"
+          },
+          {
+            "airportCode": "ADB",
+            "airportName": "Adnan Menderes Airport",
+            "cityCode": "IZM",
+            "cityName": "Izmir",
+            "countryCode": "TR",
+            "countryName": "Turkey",
+            "latitude": 38.292392,
+            "longitude": 27.156953,
+            "stateCode": "",
+            "timeZone": "Europe/Istanbul"
+          },
+          {
+            "airportCode": "MAH",
+            "airportName": "Aerop De Menorca",
+            "cityCode": "MAH",
+            "cityName": "Menorca",
+            "countryCode": "ES",
+            "countryName": "Spain",
+            "latitude": 39.862597,
+            "longitude": 4.218647,
+            "stateCode": "",
+            "timeZone": "Europe/Madrid"
+          },
+          {
+            "airportCode": "LPA",
+            "airportName": "Aeropuerto De Gran Canaria",
+            "cityCode": "LPA",
+            "cityName": "Gran Canaria",
+            "countryCode": "ES",
+            "countryName": "Spain",
+            "latitude": 27.931886,
+            "longitude": -15.386586,
+            "stateCode": "",
+            "timeZone": "Atlantic/Canary"
+          },
+          {
+            "airportCode": "OCC",
+            "airportName": "Aeropuerto Francisco De Orellana",
+            "cityCode": "OCC",
+            "cityName": "Coca",
+            "countryCode": "EC",
+            "countryName": "Ecuador",
+            "latitude": -0.462886,
+            "longitude": -76.986842,
+            "stateCode": "",
+            "timeZone": "America/Guayaquil"
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:01 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/airports?q=ed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2993'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "airportCode": "BVB",
+            "airportName": "A B Cantanhede Intl Arpt",
+            "cityCode": "BVB",
+            "cityName": "Boa Vista",
+            "countryCode": "BR",
+            "countryName": "Brazil",
+            "latitude": 2.846311,
+            "longitude": -60.690069,
+            "stateCode": "",
+            "timeZone": "America/Boa_Vista"
+          },
+          {
+            "airportCode": "KKA",
+            "airportName": "Alfred Adams Arpt",
+            "cityCode": "KKA",
+            "cityName": "Koyuk",
+            "countryCode": "US",
+            "countryName": "United States",
+            "latitude": 64.939444,
+            "longitude": -161.154167,
+            "stateCode": "AK",
+            "timeZone": "America/Anchorage"
+          },
+          {
+            "airportCode": "AYP",
+            "airportName": "Alfredo M Duarte Arpt",
+            "cityCode": "AYP",
+            "cityName": "Ayacucho",
+            "countryCode": "PE",
+            "countryName": "Peru",
+            "latitude": -13.154819,
+            "longitude": -74.204417,
+            "stateCode": "",
+            "timeZone": "America/Lima"
+          },
+          {
+            "airportCode": "LET",
+            "airportName": "Alfredo V Cobo Intl",
+            "cityCode": "LET",
+            "cityName": "Leticia",
+            "countryCode": "CO",
+            "countryName": "Colombia",
+            "latitude": -4.193549,
+            "longitude": -69.943163,
+            "stateCode": "",
+            "timeZone": "America/Bogota"
+          },
+          {
+            "airportCode": "ANC",
+            "airportName": "Anchorage Ted Stevens Intl Arpt",
+            "cityCode": "ANC",
+            "cityName": "Anchorage",
+            "countryCode": "US",
+            "countryName": "United States",
+            "latitude": 61.174361,
+            "longitude": -149.996361,
+            "stateCode": "AK",
+            "timeZone": "America/Anchorage"
+          },
+          {
+            "airportCode": "BBA",
+            "airportName": "Balmaceda Arpt",
+            "cityCode": "BBA",
+            "cityName": "Balmaceda",
+            "countryCode": "CL",
+            "countryName": "Chile",
+            "latitude": -45.916058,
+            "longitude": -71.689475,
+            "stateCode": "",
+            "timeZone": "America/Santiago"
+          },
+          {
+            "airportCode": "BEU",
+            "airportName": "Bedourie Arpt",
+            "cityCode": "BEU",
+            "cityName": "Bedourie",
+            "countryCode": "AU",
+            "countryName": "Australia",
+            "latitude": -24.3461,
+            "longitude": 139.46,
+            "stateCode": "QL",
+            "timeZone": "Australia/Brisbane"
+          },
+          {
+            "airportCode": "YBW",
+            "airportName": "Bedwell Harbor Arpt",
+            "cityCode": "YBW",
+            "cityName": "Bedwell Harbor",
+            "countryCode": "CA",
+            "countryName": "Canada",
+            "latitude": 51.1031,
+            "longitude": -114.374,
+            "stateCode": "BC",
+            "timeZone": "America/Edmonton"
+          },
+          {
+            "airportCode": "YBW",
+            "airportName": "Bedwell Harbour Arpt",
+            "cityCode": "YBW",
+            "cityName": "Bedwell Harbor",
+            "countryCode": "CA",
+            "countryName": "Canada",
+            "latitude": 51.1031,
+            "longitude": -114.374,
+            "stateCode": "BC",
+            "timeZone": "America/Edmonton"
+          },
+          {
+            "airportCode": "BOS",
+            "airportName": "Boston Edward L Logan Intl Apt",
+            "cityCode": "BOS",
+            "cityName": "Boston",
+            "countryCode": "US",
+            "countryName": "United States",
+            "latitude": 42.364347,
+            "longitude": -71.005181,
+            "stateCode": "MA",
+            "timeZone": "America/New_York"
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:02 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/airlines
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '323'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "code": "SU",
+            "name": "Aeroflot"
+          },
+          {
+            "code": "MU",
+            "name": "China Eastern"
+          },
+          {
+            "code": "EK",
+            "name": "Emirates"
+          },
+          {
+            "code": "KE",
+            "name": "Korean Air lines"
+          },
+          {
+            "code": "QF",
+            "name": "Qantas"
+          },
+          {
+            "code": "SQ",
+            "name": "Singapore Airlines"
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:03 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/SQ?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10317'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "U1E1NjQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 564,
+            "start": {
+              "dateTime": "2017-08-22T21:55:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T22:34:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7152.44
+          },
+          {
+            "key": "U1E3MjYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 726,
+            "start": {
+              "dateTime": "2017-08-22T04:10:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T04:49:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6138.38
+          },
+          {
+            "key": "U1E3NjkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 769,
+            "start": {
+              "dateTime": "2017-08-22T21:54:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T22:33:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5249.89
+          },
+          {
+            "key": "U1E2MjkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 629,
+            "start": {
+              "dateTime": "2017-08-22T05:13:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T05:52:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8267.49
+          },
+          {
+            "key": "U1E3NzggMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 778,
+            "start": {
+              "dateTime": "2017-08-22T23:59:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:38:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5184.21
+          },
+          {
+            "key": "U1E2OCAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 68,
+            "start": {
+              "dateTime": "2017-08-22T23:59:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:38:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7041.81
+          },
+          {
+            "key": "U1ExNzMgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 173,
+            "start": {
+              "dateTime": "2017-08-22T06:14:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T06:53:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5245.19
+          },
+          {
+            "key": "U1E0MSAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 41,
+            "start": {
+              "dateTime": "2017-08-22T07:17:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T07:56:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7775.02
+          },
+          {
+            "key": "U1EyMzAgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SQ",
+              "name": "Singapore Airlines"
+            },
+            "flightNum": 230,
+            "start": {
+              "dateTime": "2017-08-22T05:12:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T05:51:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6543.59
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:06 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/QF?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10163'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "UUY5MTIgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 912,
+            "start": {
+              "dateTime": "2017-08-22T01:03:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T01:42:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8351.57
+          },
+          {
+            "key": "UUY1MjAgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 520,
+            "start": {
+              "dateTime": "2017-08-22T16:40:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T17:19:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6113.64
+          },
+          {
+            "key": "UUYzMTYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 316,
+            "start": {
+              "dateTime": "2017-08-22T19:48:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T20:27:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8642.34
+          },
+          {
+            "key": "UUY5MzYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 936,
+            "start": {
+              "dateTime": "2017-08-22T20:52:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T21:31:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8629.86
+          },
+          {
+            "key": "UUY5MTUgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 915,
+            "start": {
+              "dateTime": "2017-08-22T02:06:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T02:45:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "KAN",
+              "shortName": "Skippy",
+              "fullName": "Kangaroo",
+              "manufacturer": "Australia",
+              "model": "Red"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8404.81
+          },
+          {
+            "key": "UUYzNDMgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 343,
+            "start": {
+              "dateTime": "2017-08-22T07:19:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T07:58:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8381.23
+          },
+          {
+            "key": "UUY3NSAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 75,
+            "start": {
+              "dateTime": "2017-08-22T22:57:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T23:36:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7137.43
+          },
+          {
+            "key": "UUY5MjQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 924,
+            "start": {
+              "dateTime": "2017-08-22T11:29:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T12:08:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8534.03
+          },
+          {
+            "key": "UUY0NiAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "QF",
+              "name": "Qantas"
+            },
+            "flightNum": 46,
+            "start": {
+              "dateTime": "2017-08-22T21:53:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T22:32:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8004.61
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:06 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/EK?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10243'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "RUs3MDcgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 707,
+            "start": {
+              "dateTime": "2017-08-22T23:59:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:38:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7323.35
+          },
+          {
+            "key": "RUs4NjEgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 861,
+            "start": {
+              "dateTime": "2017-08-22T23:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7228.83
+          },
+          {
+            "key": "RUsyMDYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 206,
+            "start": {
+              "dateTime": "2017-08-22T04:11:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T04:50:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6383.92
+          },
+          {
+            "key": "RUsxMzkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 139,
+            "start": {
+              "dateTime": "2017-08-22T17:44:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T18:23:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5746.39
+          },
+          {
+            "key": "RUs0NDYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 446,
+            "start": {
+              "dateTime": "2017-08-22T23:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5847.95
+          },
+          {
+            "key": "RUs2NSAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 65,
+            "start": {
+              "dateTime": "2017-08-22T12:31:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T13:10:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7780.51
+          },
+          {
+            "key": "RUs2NTQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 654,
+            "start": {
+              "dateTime": "2017-08-22T20:52:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T21:31:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8801.05
+          },
+          {
+            "key": "RUs2MDIgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 602,
+            "start": {
+              "dateTime": "2017-08-22T08:20:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T08:59:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 8790.34
+          },
+          {
+            "key": "RUs5NiAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "EK",
+              "name": "Emirates"
+            },
+            "flightNum": 96,
+            "start": {
+              "dateTime": "2017-08-22T03:08:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T03:47:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6749.53
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:06 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/KE?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10286'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "S0UxMTEgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 111,
+            "start": {
+              "dateTime": "2017-08-22T12:32:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T13:11:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5517.56
+          },
+          {
+            "key": "S0U2NDggMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 648,
+            "start": {
+              "dateTime": "2017-08-22T16:41:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T17:20:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7778.69
+          },
+          {
+            "key": "S0UzNzQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 374,
+            "start": {
+              "dateTime": "2017-08-22T23:59:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:38:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 6952.71
+          },
+          {
+            "key": "S0U3NDAgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 740,
+            "start": {
+              "dateTime": "2017-08-22T03:07:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T03:46:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5501.58
+          },
+          {
+            "key": "S0U1MDAgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 500,
+            "start": {
+              "dateTime": "2017-08-22T21:53:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T22:32:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5170.54
+          },
+          {
+            "key": "S0UzMTYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 316,
+            "start": {
+              "dateTime": "2017-08-22T05:13:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T05:52:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7890.85
+          },
+          {
+            "key": "S0U1MDEgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 501,
+            "start": {
+              "dateTime": "2017-08-22T03:07:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T03:46:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "OVR",
+              "shortName": "Overlord",
+              "fullName": "Overlord",
+              "manufacturer": "Zerg",
+              "model": "Ventral"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5186.89
+          },
+          {
+            "key": "S0UyNSAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 25,
+            "start": {
+              "dateTime": "2017-08-22T23:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7710.71
+          },
+          {
+            "key": "S0UzNTYgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "KE",
+              "name": "Korean Air lines"
+            },
+            "flightNum": 356,
+            "start": {
+              "dateTime": "2017-08-22T13:34:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T14:13:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 7403.3
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:06 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/MU?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10231'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "TVUxMjQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 124,
+            "start": {
+              "dateTime": "2017-08-22T19:49:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T20:28:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "333",
+              "shortName": "Airbus A330-300",
+              "fullName": "Airbus Industrie A330-300",
+              "manufacturer": "Airbus",
+              "model": "A330-300"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3496.42
+          },
+          {
+            "key": "TVU4NTcgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 857,
+            "start": {
+              "dateTime": "2017-08-22T01:02:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T01:41:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 4138.33
+          },
+          {
+            "key": "TVU5MSAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 91,
+            "start": {
+              "dateTime": "2017-08-22T13:32:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T14:11:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 4031.47
+          },
+          {
+            "key": "TVUyODUgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 285,
+            "start": {
+              "dateTime": "2017-08-22T05:12:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T05:51:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "74H",
+              "shortName": "Boeing 747-8",
+              "fullName": "Boeing 747-8",
+              "manufacturer": "Boeing",
+              "model": "747-8 Intercontinental"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5098.2
+          },
+          {
+            "key": "TVUxMjkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 129,
+            "start": {
+              "dateTime": "2017-08-22T18:45:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T19:24:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3439.8
+          },
+          {
+            "key": "TVU3MzkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 739,
+            "start": {
+              "dateTime": "2017-08-22T23:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3683.41
+          },
+          {
+            "key": "TVU4ODQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 884,
+            "start": {
+              "dateTime": "2017-08-22T22:56:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T23:35:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 4660.05
+          },
+          {
+            "key": "TVU3OTEgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 791,
+            "start": {
+              "dateTime": "2017-08-22T00:00:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T00:39:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "380",
+              "shortName": "Airbus A380",
+              "fullName": "Airbus Industrie A380",
+              "manufacturer": "Airbus",
+              "model": "A380"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3294.47
+          },
+          {
+            "key": "TVU3NTQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "MU",
+              "name": "China Eastern"
+            },
+            "flightNum": 754,
+            "start": {
+              "dateTime": "2017-08-22T15:38:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T16:17:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3476.48
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:07 GMT
+- request:
+    method: get
+    uri: http://node.locomote.com/code-task/flight_search/SU?date=2017-08-22&from=ADL&to=BBA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10147'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "key": "U1U2MTQgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 614,
+            "start": {
+              "dateTime": "2017-08-22T22:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T23:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5966.98
+          },
+          {
+            "key": "U1U4ODcgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 887,
+            "start": {
+              "dateTime": "2017-08-22T23:59:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:38:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5387.25
+          },
+          {
+            "key": "U1U3MTggMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 718,
+            "start": {
+              "dateTime": "2017-08-22T20:50:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T21:29:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 4636.33
+          },
+          {
+            "key": "U1UyNjkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 269,
+            "start": {
+              "dateTime": "2017-08-22T16:41:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T17:20:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "T95",
+              "shortName": "TU-95",
+              "fullName": "TU-95V",
+              "manufacturer": "Tupolev",
+              "model": "TU-95V"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5583.48
+          },
+          {
+            "key": "U1UyNzMgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 273,
+            "start": {
+              "dateTime": "2017-08-22T02:05:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T02:44:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "T95",
+              "shortName": "TU-95",
+              "fullName": "TU-95V",
+              "manufacturer": "Tupolev",
+              "model": "TU-95V"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5652
+          },
+          {
+            "key": "U1U3OTEgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 791,
+            "start": {
+              "dateTime": "2017-08-22T06:16:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T06:55:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 3765.13
+          },
+          {
+            "key": "U1U0MjIgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 422,
+            "start": {
+              "dateTime": "2017-08-22T23:58:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-23T00:37:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 4261.96
+          },
+          {
+            "key": "U1U2MiAxNTAzMzI1ODAwMDAw",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 62,
+            "start": {
+              "dateTime": "2017-08-22T10:25:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T11:04:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5251.66
+          },
+          {
+            "key": "U1U2NjkgMTUwMzMyNTgwMDAwMA==",
+            "airline": {
+              "code": "SU",
+              "name": "Aeroflot"
+            },
+            "flightNum": 669,
+            "start": {
+              "dateTime": "2017-08-22T05:14:00+09:30",
+              "airportCode": "ADL",
+              "airportName": "Adelaide Arpt",
+              "cityCode": "ADL",
+              "cityName": "Adelaide",
+              "countryCode": "AU",
+              "countryName": "Australia",
+              "latitude": -34.945,
+              "longitude": 138.530556,
+              "stateCode": "SA",
+              "timeZone": "Australia/Adelaide"
+            },
+            "finish": {
+              "dateTime": "2017-08-22T05:53:00-03:00",
+              "airportCode": "BBA",
+              "airportName": "Balmaceda Arpt",
+              "cityCode": "BBA",
+              "cityName": "Balmaceda",
+              "countryCode": "CL",
+              "countryName": "Chile",
+              "latitude": -45.916058,
+              "longitude": -71.689475,
+              "stateCode": "",
+              "timeZone": "America/Santiago"
+            },
+            "plane": {
+              "code": "789",
+              "shortName": "Boeing 787-9",
+              "fullName": "Boeing 787-9 Dreamliner",
+              "manufacturer": "Boeing",
+              "model": "787-9"
+            },
+            "distance": 10526,
+            "durationMin": 789,
+            "price": 5659.86
+          }
+        ]
+    http_version: 
+  recorded_at: Mon, 21 Aug 2017 22:00:07 GMT
+recorded_with: VCR 3.0.3
